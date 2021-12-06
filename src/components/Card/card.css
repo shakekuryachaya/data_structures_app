@@ -1,0 +1,78 @@
+.card {
+  width: 90%;
+  /* height: 50vh; */
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.cardRow1 {
+  display: flex;
+  flex-direction: row;
+}
+.cardRow1--left {
+  width: 25%;
+
+  border-radius: 15px;
+}
+.cardRow1--left img {
+  border-radius: 15px;
+  width: 100%;
+  height: 20vh;
+}
+.cardRow1--right {
+  flex: 1;
+  text-align: left;
+  /* background-color: aqua; */
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+.inforHolder {
+  margin-bottom: 0.4rem;
+}
+.label {
+  display: inline-block;
+  width: 65px;
+  margin-right: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(128, 128, 128, 0.726);
+}
+.value {
+  display: inline-block;
+  margin-right: 1.1rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.tags {
+  display: inline-block;
+  margin-right: 1.1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.562);
+  padding: 0.3rem 1rem;
+  border-radius: 25px;
+  margin-bottom: 0.4rem;
+}
+/* Row2 */
+.cardRow2 {
+  text-align: left;
+}
+.cardbtn {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.774);
+}
+.cardbtn:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: aqua;
+  border: 1px solid aqua;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.cardRow3 {
+  display: flex;
+  gap: 1rem;
+}
